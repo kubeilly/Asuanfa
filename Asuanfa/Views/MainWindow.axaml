@@ -1,0 +1,31 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:Asuanfa.Library.ViewModels;assembly=Asuanfa.Library"
+        x:Class="Asuanfa.Views.MainWindow"
+        Title="Algorithm Visualizer"
+        x:DataType="vm:AlgorithmVisualizerViewModel"
+        DataContext="{Binding AlgorithmVisualizerViewModel, Source={StaticResource ServiceLocator}}">
+
+    <StackPanel>
+        <Button Content="Start Visualization" Command="{Binding StartCommand}" />
+
+        <!-- 使用一个水平的 ItemsControl 来显示框 -->
+        <ItemsControl ItemsSource="{Binding Data}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <!-- 使用水平排列面板 -->
+                    <StackPanel Orientation="Horizontal" />
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <!-- 为每个数字显示一个带有文本的矩形框 -->
+                    <Border BorderBrush="Black" BorderThickness="2" Width="50" Height="50" Margin="5">
+                        <TextBlock Text="{Binding .}" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                    </Border>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+    </StackPanel>
+</Window>

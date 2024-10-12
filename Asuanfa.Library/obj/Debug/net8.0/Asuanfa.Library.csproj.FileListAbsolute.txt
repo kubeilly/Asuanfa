@@ -1,0 +1,13 @@
+D:\RiderRepository\Asuanfa\Asuanfa.Library\bin\Debug\net8.0\Asuanfa.Library.deps.json
+D:\RiderRepository\Asuanfa\Asuanfa.Library\bin\Debug\net8.0\Asuanfa.Library.dll
+D:\RiderRepository\Asuanfa\Asuanfa.Library\bin\Debug\net8.0\Asuanfa.Library.pdb
+D:\RiderRepository\Asuanfa\Asuanfa.Library\obj\Debug\net8.0\Asuanfa.Library.csproj.AssemblyReference.cache
+D:\RiderRepository\Asuanfa\Asuanfa.Library\obj\Debug\net8.0\Asuanfa.Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\RiderRepository\Asuanfa\Asuanfa.Library\obj\Debug\net8.0\Asuanfa.Library.AssemblyInfoInputs.cache
+D:\RiderRepository\Asuanfa\Asuanfa.Library\obj\Debug\net8.0\Asuanfa.Library.AssemblyInfo.cs
+D:\RiderRepository\Asuanfa\Asuanfa.Library\obj\Debug\net8.0\Asuanfa.Library.csproj.CoreCompileInputs.cache
+D:\RiderRepository\Asuanfa\Asuanfa.Library\obj\Debug\net8.0\Asuanfa.Library.dll
+D:\RiderRepository\Asuanfa\Asuanfa.Library\obj\Debug\net8.0\refint\Asuanfa.Library.dll
+D:\RiderRepository\Asuanfa\Asuanfa.Library\obj\Debug\net8.0\Asuanfa.Library.pdb
+D:\RiderRepository\Asuanfa\Asuanfa.Library\obj\Debug\net8.0\ref\Asuanfa.Library.dll
+D:\RiderRepository\Asuanfa\Asuanfa.Library\obj\Debug\net8.0\Avalonia\Resources.Inputs.cache

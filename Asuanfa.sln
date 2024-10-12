@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asuanfa", "Asuanfa\Asuanfa.csproj", "{4E73FAD3-C5F7-41E8-9D64-5BEA5D1B001F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C8AB9D9E-A53A-4398-8DEC-CCDAF4F7884A} = {C8AB9D9E-A53A-4398-8DEC-CCDAF4F7884A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asuanfa.Library", "Asuanfa.Library\Asuanfa.Library.csproj", "{C8AB9D9E-A53A-4398-8DEC-CCDAF4F7884A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asuanfa.UnitTest", "Asuanfa.UnitTest\Asuanfa.UnitTest.csproj", "{3BB82A68-3061-4FF4-8A5B-C7C44E598198}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E73FAD3-C5F7-41E8-9D64-5BEA5D1B001F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E73FAD3-C5F7-41E8-9D64-5BEA5D1B001F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E73FAD3-C5F7-41E8-9D64-5BEA5D1B001F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E73FAD3-C5F7-41E8-9D64-5BEA5D1B001F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8AB9D9E-A53A-4398-8DEC-CCDAF4F7884A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8AB9D9E-A53A-4398-8DEC-CCDAF4F7884A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8AB9D9E-A53A-4398-8DEC-CCDAF4F7884A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8AB9D9E-A53A-4398-8DEC-CCDAF4F7884A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB82A68-3061-4FF4-8A5B-C7C44E598198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB82A68-3061-4FF4-8A5B-C7C44E598198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB82A68-3061-4FF4-8A5B-C7C44E598198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB82A68-3061-4FF4-8A5B-C7C44E598198}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
